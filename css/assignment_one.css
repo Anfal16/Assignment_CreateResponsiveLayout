@@ -71,9 +71,7 @@ Only this will be graded.
 
  @media (max-device-width:570px) {
    body {
-      width {
-         display: 80%;
-      }
+      width: 80%;
    }
  }
 
