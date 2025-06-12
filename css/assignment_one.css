@@ -2,5 +2,35 @@
 Implement your CSS code in this file. Do not change anything in any other file.
 Only this will be graded.
 */
+ /*Desktop display*/
+ header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 30px 0;
+ }
+
+ #mainBody {
+   display: flex;
+   margin-bottom: 50px;
+   gap: 100px;
+ }
+
+ #rightContainer {
+   display: grid;
+   grid-template-rows: repeat(3,160px);
+   grid-template-columns: 2fr 1fr 1fr;
+   gap: 10px;
+ }
+
+ .gridImage.zero.display_md {
+   grid-row: 3 span;
+
+ }
+
+ #leftContainer {
+   width: 50%;
+ }
 
 
